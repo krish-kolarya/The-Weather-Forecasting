@@ -3,57 +3,28 @@
 <br/>
 <br/>
 
-With [The Weather Forecasting](https://the-weather-forecasting.netlify.app) user can search locations by city name and observe the weather for the next 5-6 days and 3 hour interval.
-<br />
-The app is developed using React.js and material-UI.
+# 🌤️ The Weather Forecasting
 
-<br/>
+**The Weather Forecasting** is a modern web application that allows users to search for any city and view detailed weather forecasts. It provides a 5-day forecast broken down into 3-hour intervals, displaying weather icons and descriptions for each time slot.
 
-## 💻 Live Demo:
+## 🔍 Features
 
-https://the-weather-forecasting.netlify.app
+- Search weather by **city name**
+- View forecast in **3-hour intervals** for the next **5-6 days**
+- Weather icons and descriptions included
+- Responsive design for desktop and mobile
 
-<br/>
+## 🚀 Live Demo
 
-## ✨ Getting Started
+[🌐 View App](https://the-weather-forecasting.netlify.app)
 
-- Make sure you already have `Node.js` and `npm` installed in your system.
-- You need an API key from [OpenWeatherMap](https://openweathermap.org/). After creating an account, [grab your key](https://home.openweathermap.org/api_keys).
-- Then, under the `src` directory, go to `api/OpenWeatherService` and replace `WEATHER_API_KEY` with your OpenWeatherMap API Key.
-  - **`api/OpenWeatherService.js`**: It contains the code related to the back-end of the application.
+## 🛠️ Tech Stack
 
-<br/>
+- **Frontend Framework**: [React.js](https://reactjs.org/)
+- **UI Components**: [Material UI](https://mui.com/)
+- **API**: [OpenWeatherMap API](https://openweathermap.org/forecast5)
 
-## ⚡ Install
+## 🧩 Project Structure
 
-- Clone the repository:
-
-```bash
-git clone https://github.com/Amin-Awinti/the-weather-forecasting.git
-
-```
-
-- Install the packages using the command `npm install`
-
-<br/>
-
-## 📙 Used libraries
-
-- `react-js`
-- `material-ui`
-
-Check `packages.json` for details
-
-<br/>
-
-## 📄 Todos
-
-- [ ] Styled-components
-- [ ] Convert the entire project to TypeScript
-- [ ] Unit Testing
-- [ ] On launch, find user location weather by utilizing GeolocationAPI/GEOCODING
-- [ ] Celcius/Fahrenheit conversion
-- [ ] Dark/Light Mode
-
-<br/>
-Thank You ☺
+- `src/components`: Reusable UI components like search bar, weather cards, etc.
+- `src/api/OpenWeatherService.js`: Handles communication with OpenWeatherMap API.
